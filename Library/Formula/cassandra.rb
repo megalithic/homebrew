@@ -3,7 +3,7 @@ require 'formula'
 class Cassandra < Formula
   homepage 'http://cassandra.apache.org'
   url 'http://www.apache.org/dyn/closer.cgi?path=/cassandra/2.0.11/apache-cassandra-2.0.11-bin.tar.gz'
-  sha1 'f8021f9defcdd6957ff78de7c6d5308b'
+  sha1 'f31d71797e1ffeeacb3c71ad35e900d11580bfc3'
 
   def install
     (var+"lib/cassandra").mkpath
